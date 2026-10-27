@@ -1,506 +1,785 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car Carrier Group Stories</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body class="my-4 px-3 w-[1488px] flex  flex-col mx-auto">
-    <header class="flex my-3 justify-between items-center">
-      <img class="w-16" src="/logo.jpg" alt="" />
-      <nav>
-        <ul class="flex gap-5 justify-around items-center font-semibold">
-          <li>Shipment Stories</li>
-          <li>Transportation Services</li>
-          <li>Resources</li>
-          <li>
-            <button
-              class="bg-[#0D2861] px-4 py-3 rounded-lg text-white cursor-pointer"
-            >
-              Request a Quote
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- Hero section -->
-      <section class="my-10 flex justify-around items-center">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Carrier Group Stories</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="my-4 px-3 w-auto flex flex-col mx-auto">
+  <header class="flex my-3 justify-between items-center sticky top-0 z-50 py-5 bg-white">
+    <img class="w-16" src="/logo.jpg" alt="" />
+    <nav>
+      <ul class="flex gap-5 justify-around items-center font-semibold">
+        <li class="hidden lg:block">Shipment Stories</li>
+        <li class="hidden lg:block">Transportation Services</li>
+        <li class="hidden lg:block">Resources</li>
+        <li>
+          <button class="bg-[#0D2861] px-4 py-3 rounded-lg text-white cursor-pointer">
+            Request a Quote
+          </button>
+        </li>
+        <li>
+          <img class=" w-8  lg:hidden" src="/menu.png" alt="">
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero section -->
+    <section class="my-10 flex flex-col lg:flex-row justify-around  items-center">
+      <div>
+        <p class="text-[#043b65] font-semibold">
+          Real Shipments, Real Stories
+        </p>
+        <h1 class="text-4xl font-bold my-3">Real Transportation.</h1>
+        <p class="my-3 text-gray-400">
+          Explore real shipments handled by Car Carrier Group and see how
+          <br />
+          we move vehicles, freight, equipment, and other transportation
+          <br />needs across the country.
+        </p>
+        <div class="flex gap-3">
+          <button class="bg-[#0D2861] text-white font-semibold rounded-xl py-3 px-6 flex gap-2 items-center">
+            Request a quote from Car Carrier Group
+            <img src="/arrow_forward.svg" alt="" />
+          </button>
+          <button class="bg-gray-100 font-semibold rounded-xl py-3 px-6">
+            Explore stories
+          </button>
+        </div>
+        <div class="flex gap-3 my-5 font-semibold">
+          <div class="border-orange-500 border-2 h-6 w-0"></div>
+          <img class="" src="/location.svg" alt="" />
+          <p>Pickup</p>
+          <img src="/arow-right.svg" alt="" />
+          <p>Destination</p>
+          <p class="font-normal text-gray-400">- Coordinated nationwide</p>
+        </div>
+      </div>
+      <div
+        class=" w-3/4  lg:w-96 rounded-2xl aspect-[4/3] bg-[url('/1.png')] bg-cover bg-center bg-no-repeat flex flex-col items-end p-3">
+        <p class="bg-gray-800 opacity-80 py-2 text-white font-semibold px-3 w-fit rounded-xl">
+          Pouse slideshow
+        </p>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-2 lg:grid-cols-4 justify-around">
+      <div class="flex  gap-4 border w-full border-gray-200 p-4 items-center">
+        <img class="w-8" src="/calendar.svg" alt="" />
         <div>
-          <p class="text-[#043b65] font-semibold">
-            Real Shipments, Real Stories
-          </p>
-          <h1 class="text-4xl font-bold my-3">Real Transportation.</h1>
+          <h4 class="text-xl font-bold">21+ Years</h4>
+          <p class="text-gray-500">in transportation</p>
+        </div>
+      </div>
+      <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
+        <img class="w-8" src="/earth.svg" alt="" />
+        <div>
+          <h4 class="text-xl font-bold">Nationwide</h4>
+          <p class="text-gray-500">transportation</p>
+        </div>
+      </div>
+      <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
+        <img class="w-8" src="/shield.svg" alt="" />
+        <div>
+          <h4 class="text-xl font-bold">Real Experience</h4>
+          <p class="text-gray-500">shipment-led insight</p>
+        </div>
+      </div>
+      <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
+        <img class="w-8" src="/headphones.svg" alt="" />
+        <div>
+          <h4 class="text-xl font-bold">Seven Days</h4>
+          <p class="text-gray-500">a week support</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-10">
+      <div class="flex justify-around my-10">
+        <div>
+          <p class="text-[#043b65] font-semibold">Browse Shipment Stories</p>
+          <h1 class="text-4xl font-bold my-3">The work behind the move</h1>
+        </div>
+        <div>
           <p class="my-3 text-gray-400">
-            Explore real shipments handled by Car Carrier Group and see how
-            <br />
-            we move vehicles, freight, equipment, and other transportation
-            <br />needs across the country.
+            Every story below is a clearly labeled demonstration of <br />
+            how real transportation needs can be understood and <br />
+            coordinated.
           </p>
-          <div class="flex gap-3">
-            <button
-              class="bg-[#0D2861] text-white font-semibold rounded-xl py-3 px-6 flex gap-2 items-center"
-            >
-              Request a quote from Car Carrier Group
-              <img src="/arrow_forward.svg" alt="" />
-            </button>
-            <button class="bg-gray-100 font-semibold rounded-xl py-3 px-6">
-              Explore stories
-            </button>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 p-3 lg:grid-cols-6 gap-9 font-semibold">
+        <button class="rounded-xl border border-gray-200 bg-blue-950 text-white cursor-pointer px-4 py-2">
+          All Stories
+        </button>
+        <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
+          Vehicle Shipping
+        </button>
+        <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
+          Freight
+        </button>
+        <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
+          Heavy Equipment
+        </button>
+        <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
+          Classic & Exotic
+        </button>
+        <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
+          View All
+        </button>
+      </div>
+    </section>
+
+    <section class="flex flex-col items-center lg:flex-row justify-around gap-6 p-8 border my-10 rounded-2xl border-gray-200">
+      <div>
+        <img class="rounded-2xl  h-full" src="/big-box.png" alt="" />
+      </div>
+      <div>
+        <div class="flex gap-7 my-5">
+          <p class="text-blue-900 text-sm font-semibold">VEHICLE</p>
+          <p class="text-gray-400 text-sm">Shipment story</p>
+        </div>
+        <div class="flex gap-7 my-5">
+          <div class="flex gap-2">
+            <img class="w-5" src="/location_-gray.svg" alt="" />
+            <p>Georgia</p>
           </div>
-          <div class="flex gap-3 my-5 font-semibold">
-            <div class="border-orange-500 border-2 h-6 w-0"></div>
-            <img class="" src="/location.svg" alt="" />
-            <p>Pickup</p>
-            <img src="/arow-right.svg" alt="" />
-            <p>Destination</p>
-            <p class="font-normal text-gray-400">- Coordinated nationwide</p>
+          <div class="flex gap-2">
+            <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+            <p>California</p>
           </div>
         </div>
+        <h2 class="text-3xl my-5 font-bold">
+          Georgia to California: A Car <br />
+          Delivered 4 Days Ahead of Schedule!
+        </h2>
+        <p class="text-gray-400 my-5">
+          Ship your car from Georgia to California with Car Carrier Group.
+          Enjoy <br />
+          responsive communication and reliable cross-country auto transport.
+          Get a <br />
+          quote today!
+        </p>
+
+        <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+          <p class="font-semibold text-blue-900">Read Full Story</p>
+          <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+  ]
+    <!-- Card section -->
+
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/11.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Humvee</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Minnesota</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: California</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                Humvee Delivered on Time: Professional
+              </h3>
+              <p class="mb-3">
+                Ship your classic car from Minnesota to California with Car
+                Carrier Group. Discover reliable vintage
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/22.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Vehicle</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Bay Area</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Southern California</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                From the Bay Area to Southern California: A....
+              </h3>
+              <p class="mb-3">
+                Ship your car from the Bay Area to Southern California with
+                Car Carrier Group. Enjoy clear communication and professional
+                service. Request a quote today!
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/33.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>1965 Buick Skylark</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Minnesota</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: California</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                A Classic Car Dream Delivered: Shipping a...
+              </h3>
+              <p class="mb-3">
+                Ship your classic car from Minnesota to California with Car
+                Carrier Group. Discover reliable vintage car transport
+                solutions...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/44.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Jeep Compass</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Texas</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Virginia</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                From Houston to Fairfax: A College...
+              </h3>
+              <p class="mb-3">
+                Student’s Car Shipping Experience with Car Carrier Group
+                Shipping your car to college? Car Carrier Group helps students
+                arrange reliable auto transport...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/55.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Military HMMWV</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Hampshire</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Georgia</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                From Military HMMWV Transport to...
+              </h3>
+              <p class="mb-3">
+                Ship military HMMWVs, trailers, and Kubota tractors with Car
+                Carrier Group. Get reliable...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/66.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>1959 Corvette</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: California</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Florida</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                Shipping a Classic 1960 C1 Corvette...
+              </h3>
+              <p class="mb-3">
+                Ship your Corvette from California to Florida with Car Carrier
+                Group. Enjoy reliable service, clear...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/77.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Wacker Neuson Vibratory Compactor</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Satillo,MS</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Brentwood,N.Y.</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                Pallet Shipping Problem Solved:...
+              </h3>
+              <p class="mb-3">
+                Need pallet shipping? Car Carrier Group solves LTL freight
+                challenges with reliable transport for...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl w-full h-[300px] object-cover" src="/88.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Mazda CX-5 crossover SUV</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="" src="/location_-gray.svg" alt="" />
+              <p>Pickup: California</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Massachusetts</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                From California to Massachusetts:...
+              </h3>
+              <p class="mb-3">
+                Discover how Car Carrier Group helped Anissa ship her son’s
+                car from California to Massachusetts with...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl w-full h-[300px] object-cover" src="/99.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Volvo S90</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Texas</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: California</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                From Texas to California: A Parent’s...
+              </h3>
+              <p class="mb-3">
+                Discover Paul Wood’s experience shipping his daughter’s car
+                from Texas to California with Car...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/1010.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>LTL</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Red rock,AZ</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: South River,N.J.</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">LTL Shipment</h3>
+              <p class="mb-3">
+                LTL Shipment. Pallet transport Tool Box Shipping
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl" src="/1111.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Heavy equipment</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Washington</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Texas</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">Ship Humvee Limo</h3>
+              <p class="mb-3">
+                Need to ship a Hummer limo or heavy vehicle? Car Carrier Group
+                handled the nationwide transport of...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-2xl w-auto border border-gray-300">
+        <img class="rounded-t-2xl w-full h-[300px] object-cover" src="/1212.png" alt="" />
+        <div class="flex pt-4 px-4 flex-col">
+          <p>Vehicle Transport</p>
+          <div class="flex flex-col gap-7 my-5">
+            <div class="flex gap-1">
+              <img class="w-5" src="/location_-gray.svg" alt="" />
+              <p>Pickup: Aladdin</p>
+              <img class="w-5" src="/arrow_forward-gray.svg" alt="" />
+              <p>Destination: Dayton</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <h3 class="text-lg font-semibold">
+                Vehicle Shipping, General Freight...
+              </h3>
+              <p class="mb-3">
+                We transported this Humvee to Aladdin,WY from Florida 6 months
+                ago and now they are moving...
+              </p>
+              <div class="flex cursor-pointer hover:text-blue-950 gap-2 items-center">
+                <p class="font-semibold text-blue-900">Read Story</p>
+                <img class="w-4" src="/arrow_forward-blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-10">
+      <div>
+        <p class="text-blue-900 font-bold text-md">
+          Why These Stories Matter
+        </p>
+        <h1 class="font-bold text-4xl my-4">
+          See How Real Transportation Gets Done
+        </h1>
+        <p class="text-gray-400">
+          Every case demonstrates the real-time decisions, specialized
+          equipment, and dedicated carrier <br />
+          coordination required to protect your cargo from dispatch to
+          destination.
+        </p>
+      </div>
+    </section>
+
+    <section class="flex flex-col lg:flex-row gap-10 my-10">
+      <div class="w-full    rounded-2xl p-8 shadow-xl border border-gray-200">
+     <img src="/0.png" alt="">
+        <h3 class="text-xl font-bold">
+          Real-world 
+          experience
+        </h3>
+        <p class="text-gray-400">
+          See the decisions and attention <br />
+          that sit behind shipment <br />
+          coordination.
+        </p>
+      </div>
+      <div class="w-full h-64 rounded-2xl p-8 shadow-xl border border-gray-200">
+  <img src="/00.png" alt="">
+        <h3 class="text-xl font-bold">
+         Practical transportation insight
+        </h3>
+        <p class="text-gray-400">
+         Understand the questions that help shape a transportation solution.
+        </p>
+      </div>
+      <div class="w-full h-64 rounded-2xl p-8 shadow-xl border border-gray-200">
+     <img src="/000.png" alt="">
+        <h3 class="text-xl font-bold">
+         Nationwide capability
+        </h3>
+        <p class="text-gray-400">
+       Explore the range of transportation needs CCG helps coordinate across the country.
+        </p>
+      </div>
+    </section>
+
+    <section class="bg-[#0d2861] flex justify-center items-center text-white w-full py-20">
+
+      <div class="bg-[#fcfdff1a] border border-[#fcfdff2c] p-16 rounded-3xl ">
         <div
-          class="w-96 rounded-2xl aspect-[4/3] bg-[url('/1.png')] bg-cover bg-center bg-no-repeat flex flex-col items-end p-3"
-        >
-          <p
-            class="bg-gray-800 opacity-80 py-2 text-white font-semibold px-3 w-fit rounded-xl"
-          >
-            Pouse slideshow
-          </p>
+          class="bg-[#ff88004f] border border-[#ff880058] w-fit mx-auto my-4  justify-center flex gap-1 px-3 items-center  text-center rounded-xl">
+          <img class="w-4  " src="/shok.png" alt="">
+          <p class="  text-orange-500 ">Direct Carrier Dispatch</p>
         </div>
-      </section>
+        <h1 class="text-5xl text-center font-bold">ONE QUICK CALL DOES IT ALL!</h1>
 
-      <section class="flex justify-around">
-        <div class="flex gap-4 border w-full border-gray-200 p-4 items-center">
-          <img class="w-8" src="/calendar.svg" alt="" />
-          <div>
-            <h4 class="text-xl font-bold">21+ Years</h4>
-            <p class="text-gray-500">in transportation</p>
-          </div>
-        </div>
-        <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
-          <img class="w-8" src="/earth.svg" alt="" />
-          <div>
-            <h4 class="text-xl font-bold">Nationwide</h4>
-            <p class="text-gray-500">transportation</p>
-          </div>
-        </div>
-        <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
-          <img class="w-8" src="/shield.svg" alt="" />
-          <div>
-            <h4 class="text-xl font-bold">Real Experience</h4>
-            <p class="text-gray-500">shipment-led insight</p>
-          </div>
-        </div>
-        <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
-          <img class="w-8" src="/headphones.svg" alt="" />
-          <div>
-            <h4 class="text-xl font-bold">Seven Days</h4>
-            <p class="text-gray-500">a week support</p>
-          </div>
-        </div>
-      </section>
 
-      <section class="my-10">
-        <div class="flex justify-around my-10">
-          <div>
-            <p class="text-[#043b65] font-semibold">Browse Shipment Stories</p>
-            <h1 class="text-4xl font-bold my-3">The work behind the move</h1>
+
+        <div class="flex flex-col lg:flex-row items-center gap-6 my-6 text-center">
+
+
+          <div
+            class="flex flex-col items-center gap-2 font-bold px-10 py-5 w-3/4 lg:w-64 bg-[#f0f2f51d] rounded-xl border border-[#a6a8ab52]">
+            <div class="bg-orange-400 w-fit p-2 rounded-xl">
+              <img class="w-6 " src="/phone1.png" alt="">
+            </div>
+            <p class="text-sm text-gray-400">CALL US</p>
+            <h3 class="text-2xl">888-702-7322</h3>
           </div>
-          <div>
-            <p class="my-3 text-gray-400">
-              Every story below is a clearly labeled demonstration of <br />
-              how real transportation needs can be understood and <br />
-              coordinated.
+
+
+          <div
+            class="flex flex-col items-center gap-2 font-bold px-10 py-5 w-3/4 lg:w-64 bg-white text-blue-900 rounded-xl border border-[#a6a8ab52]">
+
+
+            <div class="flex">
+              <h3 class="text-xl">GET AN INSTAN <br>T QUOTE </h3>
+              <img class="w-6" src="/arrow_forward-blue.svg" alt="">
+            </div>
+            <p>
+              Vehicles
+              • Freight <br>
+              • Heavy Equipment</p>
+          </div>
+
+
+          <div
+            class="flex flex-col items-center gap-2 font-bold px- 5 py-5 w-3/4 lg:w-64 bg-[#fc8a2d1d] rounded-xl border border-[#f1840052]">
+
+            <div
+              class="bg-[#f298323c] border  w-fit mx-auto my-4  justify-center flex gap-1 px-3 py-1 items-center  text-center rounded-xl border-[#ff8c0052]">
+              <p class="  text-orange-200 text-sm font-normal ">COMING SOON</p>
+            </div>
+            <h3 class="text-2xl">New Auto Shipping <br> Quote Tool</h3>
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="border w-full my-5  border-gray-200 opacity-20"></div>
+
+
+
+        <div class="flex   justify-around">
+          <div class="flex items-center mb-4 gap-1">
+            <img class="w-4 h-4" src="/clock.png" alt="">
+            <p>7-Day-a-Week Staff Access
+
             </p>
           </div>
+          <p>•</p>
+          <p>Accurate Route-Based Pricing</p>
+          <p>•</p>
+          <p class="hidden lg:block">
+            No Upfront Obligation</p>
         </div>
-        <div class="flex gap-9 font-semibold">
-          <button class="rounded-xl border border-gray-200 bg-blue-950 text-white cursor-pointer px-4 py-2">
-            All Stories
-          </button>
-          <button class="rounded-xl border cursor-pointer border-gray-200  px-4 py-2">
-          Vehicle Shipping
-          </button>
-          <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
-      Freight
-          </button>
-          <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
-           Heavy Equipment
-          </button>
-          <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
-          Classic & Exotic
-          </button>
-          <button class="rounded-xl border cursor-pointer border-gray-200 px-4 py-2">
-           View All
-          </button>
+        <p class="text-center  lg:hidden">
+            No Upfront Obligation</p>
+      </div>
+
+    </section>
+
+    <section class="my-10">
+
+
+      <div
+        class="bg-[#4381f326] border  w-fit mx-auto my-4  justify-center flex gap-1 px-4 py-1 items-center  text-center rounded-xl border-[#395af13b]">
+        <p class="  text-blue-900 text-sm font-normal ">Car Carrier Group</p>
+      </div>
+      <h1 class="text-5xl font-bold text-center my-5">21 Years in Business</h1>
+      <p class="text-center font-bold text-lg">“We are your reliable shipping partner.”</p>
+      <div class="flex flex-col lg:flex-row justify-around gap-9">
+
+
+        
+        <div class="w-full gap-5 flex flex-col h-64 rounded-2xl p-8 shadow-xl border border-gray-200">
+          <img class="p-2 w-12 bg-[#0a58ff21] border border-blue-200 rounded-xl" src="/0 (1).png" alt="">
+          <h3 class="text-xl font-bold">
+            7 Day a Week Access to Our Staff
+          </h3>
+          <p class="text-gray-400">
+            Direct access to our dedicated transport coordinators 7 <br> days a week for immediate updates and support.
+          </p>
         </div>
-      </section>
+        <div class="w-full gap-5 flex flex-col h-64 rounded-2xl p-8 shadow-xl border border-gray-200">
+          <img class="p-2 w-12 bg-[#0a58ff21] border border-blue-200 rounded-xl" src="/0 (2).png" alt="">
+          <h3 class="text-xl font-bold">
+            7 Day a Week Access to Our Staff
+          </h3>
+          <p class="text-gray-400">
+            Direct access to our dedicated transport coordinators 7 <br> days a week for immediate updates and support.
+          </p>
+        </div>
+        <div class="w-full gap-5 flex flex-col h-64 rounded-2xl p-8 shadow-xl border border-gray-200">
+          <img class="p-2 w-12 bg-[#0a58ff21] border border-blue-200 rounded-xl" src="/0 (3).png" alt="">
+          <h3 class="text-xl font-bold">
+            7 Day a Week Access to Our Staff
+          </h3>
+          <p class="text-gray-400">
+            Direct access to our dedicated transport coordinators 7 <br> days a week for immediate updates and support.
+          </p>
+        </div>
+      </div>
 
-      <section class=" flex flex-row-reverse justify-around gap-6 p-8 border my-10 rounded-2xl border-gray-200">
+    </section>
 
+
+
+
+
+
+
+
+
+
+
+
+    <section class="flex flex-col my-10 gap-3 border border-blue-100 shadow p-8 rounded-xl ">
+
+
+
+
+
+      <img class="w-7" src="/collon.png" alt="">
+
+      <h4 class="text-lg font-bold">“Our clients hire us to score touchdowns. That means seeing every shipment through to a successful delivery
+        with clear <br> communication and accountability every step of the way.”</h4>
+
+
+
+      <div class="flex gap-3 items-center">
+        <p class="bg-blue-900 p-2 text-sm font-semibold text-white rounded-full">ML</p>
         <div>
-            <img class="rounded-2xl" src="/big-box.png" alt="">
+          <p class="text-sm font-semibold text-blue-950">Mitchell Levin</p>
+          <p class="text-sm text-orange-500">President, Car Carrier Group</p>
         </div>
-        <div>
-            <div class="flex gap-7 my-5">
-                <p class="text-blue-900 text-sm font-semibold">VEHICLE</p>
-                <p class="text-gray-400 text-sm">Shipment story</p>
-            </div>
-            <div class="flex gap-7 my-5">
-                <div class="flex gap-2">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Georgia</p>
-                </div>
-                <div class="flex gap-2">
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>California</p>
-                </div>
-            </div>
-            <h2  class="text-3xl my-5 font-bold ">Georgia to California:   A Car <br> Delivered 4 Days Ahead of Schedule!</h2>
-            <p class="text-gray-400 my-5">Ship your car from Georgia to California with Car Carrier Group. Enjoy <br> responsive communication and reliable cross-country auto transport. Get a <br> quote today!</p>
 
-           <div class="flex  cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Full Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-        </div>
-      </section>
+      </div>
+
+    </section>
+
+  </main>
 
 
+  <footer>
+    <section>
 
+<div class="flex flex-col lg:flex-row justify-between my-5 px-1">
+<div class=" flex flex-col mb-5  gap-5">
+  <img class="w-16" src="/logo.jpg" alt="" />
+  <p>Transportation coordination for vehicles, freight,<br> equipment, and more nationwide.</p>
+</div>
 
-
-
-
-<!-- 
-    <section class="flex justify-around">
-        <div class="flex gap-4 border w-full border-gray-200 p-4 items-center">
-         
-          <div>
-            <h4 class="text-xl font-bold">Pickup</h4>
-            <p class="text-gray-500">Georgia</p>
-          </div>
-        </div>
-        <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
-         
-          <div>
-            <h4 class="text-xl font-bold">Destination</h4>
-            <p class="text-gray-500">California</p>
-          </div>
-        </div>
-        <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
-          
-          <div>
-            <h4 class="text-xl font-bold">Shipment</h4>
-            <p class="text-gray-500">Vehicle</p>
-          </div>
-        </div>
-        <div class="flex border w-full border-gray-200 p-4 gap-4 items-center">
-          
-          <div>
-            <h4 class="text-xl font-bold">Shipment status</h4>
-            <p class="text-gray-500">Delivered</p>
-          </div>
-        </div>
-      </section> -->
-
-<!-- Card section -->
-
-<section class=" grid grid-cols-3 gap-10">
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/11.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
+<div class="flex flex-col  lg:flex-row justify-between gap-5 lg:gap-20 mr-6">
+  
+<div class="flex flex-col gap-3">
+  <p class="font-semibold  text-blue-900">Services</p>
+  <p class="text-gray-400 cursor-pointer text-sm">Vehicle Shipping</p>
+  <p class="text-gray-400 cursor-pointer text-sm">Freight</p>
+  <p class="text-gray-400 cursor-pointer text-sm">Heavy Equipment</p>
 </div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/22.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Vehicle</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">From the Bay Area to Southern California: A</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
+<div class="flex flex-col gap-3">
+  <p class="font-semibold  text-blue-900">Company</p>
+  <p class="text-gray-400 cursor-pointer text-sm">Vehicle Shipping</p>
+  <p class="text-gray-400 cursor-pointer text-sm">Resourcest</p>
+ 
 </div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/33.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/44.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/55.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/66.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/77.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/88.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/99.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/1010.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/1111.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
-</div>
-<div class="flex flex-col rounded-2xl w-auto border border-gray-300  ">
-    <img class="rounded-t-2xl" src="/1212.png" alt="">
-    <div class="flex  pt-4 px-4 flex-col">
-        <p>Humvee</p>
-        <div class="flex flex-col gap-7 my-5">
-                <div class="flex  gap-1">
-                    <img src="/location_-gray.svg" alt="">
-                    <p>Pickup: Minnesota</p>
-                    <img  src="/arrow_forward-gray.svg" alt=""> <p>Destination: California</p>
-                </div>
-               
-                <div class="flex flex-col gap-2 ">
-                    
-                    <h3 class="text-lg  font-semibold">Humvee Delivered on Time: Professional</h3>
-                    <p class="mb-3">Ship your classic car from Minnesota to California with Car Carrier Group. Discover reliable vintage</p>
-                     <div class="flex   cursor-pointer hover:text-blue-950 gap-2 items-center">
-             <p class="font-semibold text-blue-900">Read Story </p>
-            <img class="w-4 " src="/arrow_forward-blue.svg" alt="">
-           </div>
-                </div>
-            </div>
-    </div>
+<div class="flex flex-col gap-3">
+  <p class="font-semibold  text-blue-900">Connect</p>
+  <p class="text-gray-400 text-sm">Continue to Car Carrier Group's secure quote form.</p>
+ <p class="font-semibold flex items-center gap-2 cursor-pointer  text-blue-900">Request a quote <span><img class="w-4" src="/arrow_forward-blue.svg" alt=""></span></p>
+  
 </div>
 
 
-</section>
+</div>
+
+</div>
+
+
+
+        <div class="border w-full my-5  border-gray-400 opacity-20"></div>
+
+
+
+<div class="flex flex-col lg:flex-row text-center gap-3 justify-between py-10 px-2">
+
+
+  <p class="text-gray-500">© Car Carrier Group. All rights reserved.</p>
+  <p class="text-gray-500">Quote requests are handled on the Car Carrier Group website.</p>
+
+</div>
 
 
 
 
 
 
+    </section>
+  </footer>
+</body>
 
-
-
-
-
-
-
-
-
-
-    </main>
-  </body>
 </html>
